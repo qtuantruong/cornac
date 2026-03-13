@@ -19,6 +19,9 @@ from .text import TextModality, ReviewModality
 from .image import ImageModality
 from .graph import GraphModality
 from .sentiment import SentimentModality
+from .transformer_text import TransformerTextModality
+from .transformer_vision import TransformerVisionModality
+from .clip import CLIPModality
 from .reader import Reader
 from .dataset import Dataset
 from .dataset import BasketDataset
@@ -31,6 +34,9 @@ __all__ = [
     "ImageModality",
     "GraphModality",
     "SentimentModality",
+    "TransformerTextModality",
+    "TransformerVisionModality",
+    "CLIPModality",
     "BasketDataset",
     "SequentialDataset",
     "Dataset",

@@ -31,6 +31,7 @@ from .causalrec import CausalRec
 from .c2pf import C2PF
 from .cdl import CDL
 from .cdr import CDR
+from .clip_rec import CLIPRec
 from .coe import COE
 from .companion import Companion
 from .comparer import ComparERObj
@@ -44,6 +45,7 @@ from .dnntsp import DNNTSP
 from .ease import EASE
 from .efm import EFM
 from .fm import FM
+from .fm_rec import FMRec
 from .gcmc import GCMC
 from .global_avg import GlobalAvg
 from .gp_top import GPTop
@@ -56,6 +58,7 @@ from .ibpr import IBPR
 from .knn import ItemKNN
 from .knn import UserKNN
 from .lightgcn import LightGCN
+from .llm_rec import LLMRec
 from .lrppm import LRPPM
 from .mcf import MCF
 from .mf import MF

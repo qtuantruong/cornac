@@ -572,6 +572,10 @@ class Dataset(object):
         self.item_graph = kwargs.get("item_graph", None)
         self.sentiment = kwargs.get("sentiment", None)
         self.review_text = kwargs.get("review_text", None)
+        # Foundation Model integration: pre-trained embedding and audio slots
+        self.item_embedding = kwargs.get("item_embedding", None)
+        self.user_embedding = kwargs.get("user_embedding", None)
+        self.item_audio = kwargs.get("item_audio", None)
 
     def __deepcopy__(self, memo):
         cls = self.__class__

@@ -510,8 +510,8 @@ class DMRL(Recommender):
         general FeatureModality instance, as no further encoding model is
         required.
         """
-        from cornac.models.dmrl.transformer_text import TransformersTextModality
-        from cornac.models.dmrl.transformer_vision import TransformersVisionModality
+        from cornac.data.transformer_text import TransformerTextModality as TransformersTextModality
+        from cornac.data.transformer_vision import TransformerVisionModality as TransformersVisionModality
 
         if trainset.item_text is not None:
             if (
